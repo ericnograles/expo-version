@@ -15,7 +15,7 @@ function synchronizeVersions() {
         appJson.expo.android.versionCode += 1;
       }
 
-      fs.writeFileSync('./app.json', JSON.stringify(appJson));
+      fs.writeFileSync('./app.json', JSON.stringify(appJson, null, 2));
       return;
     }
 
