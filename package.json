@@ -1,0 +1,12 @@
+{
+  "name": "expo-version",
+  "version": "1.0.0",
+  "description": "A utility to synchronize the app.json versions of your Expo app with the package.json version of your source",
+  "main": "index.js",
+  "repository": "https://github.com/ericnograles/expo-version.git",
+  "author": "Eric Nograles <grales@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "expo-version": "./index.js"
+  }
+}
