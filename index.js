@@ -16,6 +16,7 @@ function synchronizeVersions() {
       }
 
       fs.writeFileSync('./app.json', JSON.stringify(appJson));
+      return;
     }
 
     console.log(`[expo-version]: No Expo project found`);
